@@ -11,7 +11,7 @@ Throughout the project I have learnt how to set up LEDs, solder, wire up circuit
 
 The project involved learning about LED arrangements, soldering, circuit connections, Arduino programming, and the challenges of building a physical electronic structure.
 
-![3x3x3 LED Cube - Final Build](images/final-cube.jpg)
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/d778dc7d-c8b8-4527-963b-d627491b50bd" />
 
 ## Features
 
@@ -111,7 +111,9 @@ I made a template out of cardboard to keep the LEDs spaced out. The size of mine
 
 Nine holes were made in the cardboard to fit LEDs into. This helped me place them in a 3x3 formation.
 
-![Cardboard LED Template](images/cardboard-template.jpg)
+![Cardboard LED Template]
+<img width="1958" height="1524" alt="cardboard-template" src="https://github.com/user-attachments/assets/aae62288-d62a-45bd-a70d-938580b3ed92" />
+
 
 ### Step 3 – Build the LED Layers
 
@@ -121,7 +123,9 @@ Solder the negative leads of the LEDs together after bending. This will provide 
 
 Repeat this to make three layers of LEDs (27 total).
 
-![LED Layers](images/led-layers.jpg)
+![LED Layers]
+![led-layers](https://github.com/user-attachments/assets/e2b2d662-6233-4208-91de-be1bd179d727)
+
 
 ### Step 4 – Assemble the 3D Structure
 
@@ -133,7 +137,9 @@ Instead of using an iron rod I used a cycle rim as I couldn’t get the material
 
 During the construction I also used some thermocol. However this caused problems as it began to melt when the soldering iron got close.
 
-![LED Cube Structure](images/cube-structure.jpg)
+![LED Cube Structure]
+<img width="1005" height="685" alt="cube-structure" src="https://github.com/user-attachments/assets/a7e8cc9d-1256-4c08-9555-598675466ff9" />
+
 
 ### Step 5 – Make Connections
 
@@ -143,7 +149,10 @@ Use the three 220 Ω resistors. Connect them as shown in the wiring diagram.
 
 Make sure the soldering and connections are correct.
 
-![LED Cube Wiring](images/cube-wiring.jpg)
+![LED Cube Wiring]
+<img width="1512" height="982" alt="cube-wiring-1" src="https://github.com/user-attachments/assets/bfd71469-0024-4441-84ad-15f73203d69a" />
+![cube-wiring-2](https://github.com/user-attachments/assets/705940d2-93ed-4c44-9abc-9bb21efd188f)
+
 
 ### Step 6 – Connect Arduino
 
@@ -284,7 +293,9 @@ I had also got to use my mechanical design skills to create the base supporting 
 
 Despite a few material swaps and difficulties when building the cube I was able to complete the project successfully.
 
-![Completed 3x3x3 LED Cube](images/final-cube.jpg)
+![Completed 3x3x3 LED Cube]
+![final-cube](https://github.com/user-attachments/assets/61d5dc5f-27a1-43da-9e70-20aadb5786b4)
+
 
 ## Demo Video
 
@@ -311,12 +322,8 @@ Possible improvements to this project could include:
 
 ---
 
-**Project Status:** Completed ✅
-
+**Project Status:** Completed
 **Controller:** Arduino Uno
-
 **LED Configuration:** 3×3×3 (27 LEDs)
-
 **Programming Environment:** Arduino IDE
-
 **CAD Software:** Autodesk Fusion 360
