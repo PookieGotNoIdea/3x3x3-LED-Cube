@@ -66,29 +66,6 @@ The positive leads are then connected vertically for each of the 3 layers. This 
 
 We now have our main connections for controlling the cube.
 
-### Arduino Connections
-
-The Arduino Uno connects to the 3 horizontal and 9 vertical connections. We also need 3 220 Ω resistors in the circuit as shown in the tutorial.
-
-**Important:** Make sure that the pins on the Arduino match those in the uploaded Arduino sketch. Once confirmed add the pin mapping below.
-
-| LED Cube Connection | Arduino Uno Pin |
-|---|---|
-| Column 1 | Add pin number |
-| Column 2 | Add pin number |
-| Column 3 | Add pin number |
-| Column 4 | Add pin number |
-| Column 5 | Add pin number |
-| Column 6 | Add pin number |
-| Column 7 | Add pin number |
-| Column 8 | Add pin number |
-| Column 9 | Add pin number |
-| Layer 1 | Add pin number |
-| Layer 2 | Add pin number |
-| Layer 3 | Add pin number |
-
-The Arduino Uno can be powered via a USB connection to your computer. Before powering the cube, make sure all connections are made correctly.
-
 ## How to Build This
 
 Step 1 – Collect the Parts
@@ -131,7 +108,7 @@ After positioning them, I bent the negative legs of the LEDs and soldered them t
 I repeated the same process to make three individual layers, giving me a total of 27 LEDs.
 
 [led-layers]
-![led-layers](https://github.com/user-attachments/assets/194ef514-ff86-401c-895d-977e1b71d313)
+(https://github.com/user-attachments/assets/7c374722-6c82-418e-b120-57b42124d619)
 
 
 
