@@ -52,7 +52,8 @@ This means that we can use the Arduino Uno to control the rows and columns to cr
 
 ### Main Connections
 
-![LED Cube Circuit Diagram](images/circuit-diagram.png)
+<img width="553" height="735" alt="Screenshot 2026-11-06 at 11 30 20 PM" src="https://github.com/user-attachments/assets/128e8f24-ad9f-44cf-807a-73290a158b55" />
+
 
 ### LED Layer Connections
 
@@ -123,7 +124,8 @@ For the supporting structure, I used a cycle rim instead of an iron rod because 
 I also tried using thermocol during construction, but it started melting when the soldering iron came too close.
 
 qwesaxz[LED Cube Structure]
-<img width="1005" height="685" alt="cube-structure" src="https://github.com/user-attachments/assets/a7e8cc9d-1256-4c08-9555-598675466ff9" />
+<img width="553" height="735" alt="Screenshot 2026-11-06 at 11 30 20 PM" src="https://github.com/user-attachments/assets/45e60681-ac11-4c9a-acc5-8f8452b2e9d4" />
+
 
 
 Step 5 – Make the Circuit Connections
@@ -223,7 +225,8 @@ Final Result
 After all the assembly, soldering, and debugging, the cube finally worked as expected. All 27 LEDs were working, and the Arduino was able to display the programmed lighting patterns and animations.
 
 It was a fun project and a good introduction to building something more physical with Arduino. I got to work with LED multiplexing, soldering, circuit connections, and even a little CAD design along the way.
-![final-cube](https://github.com/user-attachments/assets/ec426000-fc9e-4a3c-9d1d-0a5aeab2fd29)
+<img width="558" height="743" alt="Screenshot 2026-11-06 at 11 29 07 PM" src="https://github.com/user-attachments/assets/4b68a639-1e38-465b-a789-d449c2101456" />
+
 
 
 Reference
