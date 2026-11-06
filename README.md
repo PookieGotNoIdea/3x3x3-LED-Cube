@@ -1,48 +1,48 @@
-# 3×3×3 LED Cube using Arduino Uno
+3×3×3 LED Cube
 
-This repository includes the code, hardware, assembly and documentation of my 3x3x3 LED Cube using the Arduino Uno.
-The overall aim of this project was to create a 3D LED display. This consists of LEDs that can be programmed to show different lighting patterns. I wanted the LEDs to be set up in 3 layers rather than just being laid out flat.
+A small LED cube made using an Arduino Uno and 27 white LEDs. Three layers, nine LEDs in each layer, all connected to create a 3D display that can show different lighting patterns and animations.
 
-The Arduino Uno is used to control the LEDs. The cube includes 27 LEDs, split into 3 layers with 9 LEDs per layer. This was connected together into horizontal layers and vertical columns so different lighting patterns could be shown.
+I followed a YouTube tutorial for this project, but I had to make a few changes because I couldn't find all the exact materials. I used white LEDs instead of RGB LEDs, an Arduino Uno instead of an Arduino Nano, and a cycle rim instead of the iron rod used in the tutorial.
 
-The project was based around a tutorial, but some changes were made to suit the components I had. I used white LEDs rather than RGB, an Arduino Uno instead of an Arduino Nano and a cycle rim as part of the structure.
 
-Throughout the project I have learnt how to set up LEDs, solder, wire up circuits and programme the Arduino. I have also learnt how challenging it can be to create a physical electronic structure.
 
-The project involved learning about LED arrangements, soldering, circuit connections, Arduino programming, and the challenges of building a physical electronic structure.
+Why I Made This
 
-<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/d778dc7d-c8b8-4527-963b-d627491b50bd" />
+I wanted to try building something that wasn't just another basic Arduino project. A 3D LED cube looked interesting because it involved electronics, soldering, and a bit of mechanical work all in one project.
 
-## Features
+The idea was to arrange 27 LEDs into three layers and control them using an Arduino. It looked simple enough when I first saw the tutorial, but getting all the LEDs aligned, soldered, and connected properly turned out to be a different story.
 
--LED Cube 3x3x3
--27 white LEDs
--Main controller: Arduino Uno
--3 horizontal LED layers
--9 vertical LED columns
--Horizontal layers are connected together via common cathodes.
--Each column is connected via individual anodes.
--LEDs can be programmed to light up in different patterns and animations.
--Arduino Uno powered via USB.
--Supporting frame made from whatever was available.
--Extra supporting base designed using Autodesk Fusion 360.
+What It Can Do
+
+Display different LED patterns and animations.
+
+Control 27 LEDs using an Arduino Uno.
+
+Arrange LEDs into three horizontal layers and nine vertical columns.
+
+Use a multiplexed layer-and-column connection.
+
+Run from the Arduino's USB power.
+
+Includes a supporting base CAD model designed in Fusion 360.
+
+Components
 
 ## BOM – Bill of Materials
 
 | Component | Quantity | Purpose |
 |---|---:|---|
-| Arduino Uno | 1 | Main controller for the LED cube |
-| White LEDs | 27 | Light-emitting elements |
+| Arduino Uno | 1 | Controls the LEDs |
+| White LEDs | 27 | Creates the LED cube |
 | 220 Ω resistors | 3 | Current limiting |
-| Cycle rim | As required | Supporting structure |
-| Cardboard | 1 piece | Template for arranging LEDs |
-| Thermocol | As required | Used during the structural build |
-| Connecting wires | As required | Electrical connections |
-| Soldering wire | As required | Joining LED terminals |
-| USB cable | 1 | Programming and powering the Arduino |
-| Supporting base | 1 | Base design for supporting the cube |
+| Cardboard | 1 piece | LED spacing template |
+| Cycle rim | As requirede | Structural support |
+| Thermocol | As required | Used during assembly |
+| Connecting wires | As required | Circuit connections |
+| USB cable | 1 | Programming and power |
 
-The components and materials were selected based on availability. I used white LEDs because I could not find the same RGB LEDs shown in the tutorial. I also used a cycle rim instead of an iron rod for the supporting structure.
+
+I used white LEDs because I couldn't find the RGB LEDs from the tutorial. The cycle rim was another substitution because I couldn't get the iron rod shown in the reference build.
 
 ## Circuit Diagram
 
@@ -91,148 +91,104 @@ The Arduino Uno can be powered via a USB connection to your computer. Before pow
 
 ## How to Build This
 
-### Step 1 – Collect the Parts
+Step 1 – Collect the Parts
+
+Before starting, I gathered the components and materials needed for the build:
 
 Arduino Uno
 
-27 LEDs
+27 white LEDs
 
 Three 220 Ω resistors
 
 Connecting wires
 
-Structure parts
+Cardboard for making the LED template
 
-I used white LEDs as I couldn’t find the exact RGB LEDs that were used in the tutorial.
+Cycle rim for structural support
 
-### Step 2 – Make Template for LEDs
+Thermocol (used during construction)
 
-I made a template out of cardboard to keep the LEDs spaced out. The size of mine was roughly 5 x 5cm.
+I used white LEDs because I couldn't find the exact RGB LEDs shown in the original tutorial.
 
-Nine holes were made in the cardboard to fit LEDs into. This helped me place them in a 3x3 formation.
 
-![Cardboard LED Template]
+Step 2 – Make the LED Template
+
+I made a template out of cardboard to keep the LEDs properly spaced. The template was approximately 5 × 5 cm.
+
+I made nine holes in the cardboard so that I could place the LEDs in a 3×3 formation. This made it easier to keep the LEDs aligned while soldering.
+
+Cardboard template with nine holes for arranging the LEDs.
 <img width="1958" height="1524" alt="cardboard-template" src="https://github.com/user-attachments/assets/aae62288-d62a-45bd-a70d-938580b3ed92" />
 
 
-### Step 3 – Build the LED Layers
+Step 3 – Build the LED Layers
 
-Place nine LEDs into the template.
+I placed nine LEDs into the cardboard template for each layer.
 
-Solder the negative leads of the LEDs together after bending. This will provide a common cathode.
+After positioning them, I bent the negative legs of the LEDs and soldered them together to create a common cathode connection.
 
-Repeat this to make three layers of LEDs (27 total).
+I repeated the same process to make three individual layers, giving me a total of 27 LEDs.
 
-![LED Layers]
-![led-layers](https://github.com/user-attachments/assets/e2b2d662-6233-4208-91de-be1bd179d727)
+[led-layers]
+![led-layers](https://github.com/user-attachments/assets/194ef514-ff86-401c-895d-977e1b71d313)
 
 
-### Step 4 – Assemble the 3D Structure
 
-Once you have your three layers, stack them on top of each other.
+Step 4 – Assemble the 3D Structure
 
-The positive leads of the LEDs will be connected vertically making nine columns.
+Once all three layers were ready, I stacked them on top of each other to form the cube.
 
-Instead of using an iron rod I used a cycle rim as I couldn’t get the material shown in the tutorial.
+The positive legs of the LEDs were connected vertically to create nine columns across the three layers.
 
-During the construction I also used some thermocol. However this caused problems as it began to melt when the soldering iron got close.
+For the supporting structure, I used a cycle rim instead of an iron rod because I couldn't find the material used in the tutorial.
 
-![LED Cube Structure]
+I also tried using thermocol during construction, but it started melting when the soldering iron came too close.
+
+qwesaxz[LED Cube Structure]
 <img width="1005" height="685" alt="cube-structure" src="https://github.com/user-attachments/assets/a7e8cc9d-1256-4c08-9555-598675466ff9" />
 
 
-### Step 5 – Make Connections
+Step 5 – Make the Circuit Connections
 
-Connect the three horizontal connections. Connect the nine vertical connections. Connect these to the Arduino Uno.
+After assembling the cube, I connected the three horizontal layers and nine vertical columns to the Arduino Uno.
 
-Use the three 220 Ω resistors. Connect them as shown in the wiring diagram.
+I also used the three 220 Ω resistors in the circuit, following the wiring arrangement from the tutorial.
 
-Make sure the soldering and connections are correct.
+I checked the soldering points and connections carefully before powering up the circuit.
 
-![LED Cube Wiring]
+
+[LED Cube Wiring]
 <img width="1512" height="982" alt="cube-wiring-1" src="https://github.com/user-attachments/assets/bfd71469-0024-4441-84ad-15f73203d69a" />
-![cube-wiring-2](https://github.com/user-attachments/assets/705940d2-93ed-4c44-9abc-9bb21efd188f)
+[cube-wiring-2]
+(https://github.com/user-attachments/assets/705940d2-93ed-4c44-9abc-9bb21efd188f)
 
 
-### Step 6 – Connect Arduino
 
-Connect the Arduino Uno to your computer.
+Code
 
-I powered my Arduino using my MacBook so an external battery was not required.
+I used the code provided in the description of the reference tutorial and uploaded it through the Arduino IDE. I didn't make any changes to the original code.
 
-### Step 7 – Upload Code
+The program controls the LED layers and columns in sequence to create the lighting patterns.
 
-Open the sketch for the project in the Arduino IDE.
-
-I used the code from the video description of the tutorial. I did not change any of the code.
-
-Select the correct board type and port. Upload your sketch.
-
-### Step 8 – Test LEDs
-
-Upload your code and see if the LEDs light up as they should.
-
-If some of your LEDs aren’t working, check the soldering points, connections between layers and column connections.
-
-### Step 9 – Final Testing
-
-Once your connections are working, test the different lighting patterns.
-
-My final cube had several attempts. I fixed any wiring and soldering issues.
-
-## LED Cube Structure
-
-There are 27 individual LEDs.
-
-There are 3 layers of 9 LEDs each. The layers are joined together via 9 columns.
-
-The cardboard template ensured that there were gaps between the LEDs. The supporting structure also helped keep the layers together.
-
-## Programming
-
-The project uses the Arduino platform.
-
-The main purpose of the code was to control the different layers and columns of LEDs.
-
-The code was copied straight from the video description of the reference tutorial.
-
-Key ideas used within the project were:
-- Digital input/output using Arduino
-- Controlling LEDs
-- Connecting layers and columns
-- Multiplexing the layers of LEDs
-- Timing LED patterns
-- Basic programming of embedded systems
-
-### Code
-
-The code can be found here in this repository.
-
-**Main file:** `LED_Cube_3x3x3.ino`
-
-Before uploading the code to the Arduino Uno you need to make sure the pins match up to what is in the code.
+The main code is available here:
+<img width="1366" height="768" alt="code" src="https://github.com/user-attachments/assets/ce1b92c2-5ba8-4930-98e7-51b6c69d3d46" />
 
 
-## CAD Models
-I also created a supporting structure to be attached to the LED cube using **Autodesk Fusion 360**.
+CAD Model
 
-This helped provide a base for the structure.
+I also designed a supporting base for the LED cube using Autodesk Fusion 360. The idea was to create a foundation that could support the structure.
 
-By creating a CAD model I could create the supporting structure.
+I've included the CAD files in this repository:
 
-### Fusion 360 Model
+Fusion 360 archive – 
+<img width="1512" height="982" alt="Screenshot 2026-11-06 at 11 06 15 PM" src="https://github.com/user-attachments/assets/80496b71-12e2-474b-9392-380368cd8f97" />
 
-![LED Cube Base - Fusion 360 Isometric View](images/cad-base-isometric.png)
+STL model – 
+<img width="1512" height="982" alt="Screenshot 2026-11-06 at 11 09 20 PM" src="https://github.com/user-attachments/assets/9d19d0da-8059-4220-aa34-c06157007780" />
 
-### Sketch and Dimensions
 
-![LED Cube Base - Fusion 360 Sketch](images/cad-base-sketch.png)
-
-### Additional CAD Views
-
-![LED Cube Base - Fusion 360 Additional View](images/cad-base-detail.png)
-
-*The images in this section show the CAD design. They should not be interpreted as proof of physical fabrication unless the base was actually manufactured.*
+The STL file can be opened in most 3D modelling and slicing applications.
 
 ## Working Principle
 
@@ -268,62 +224,33 @@ This can be shown below:
 
 It enabled the 3D set-up to be controlled using a small amount of connections.
 
-## Challenges and Known Issues
+A Few Problems Along the Way
 
-During the construction and testing process, I faced a few practical challenges.
+It wasn't a perfect build on the first attempt.
 
-- **LED availability:** I could not find the same RGB LEDs shown in the tutorial, so I used white LEDs instead.
-- **Structural material:** I used a cycle rim instead of an iron rod because the original material was not available.
-- **Thermocol melting:** The thermocol started melting when the soldering iron came too close to it. I had to be careful while working around the structure.
-- **LED alignment:** Keeping all nine LEDs evenly spaced in each layer required careful placement using the cardboard template.
-- **Soldering:** Joining the LED legs and maintaining the correct layer and column connections required multiple attempts.
-- **Circuit debugging:** Some wiring and soldering issues had to be corrected before all the LEDs worked properly.
+Finding LEDs: I couldn't find the RGB LEDs used in the tutorial, so I switched to white LEDs.
 
-These challenges helped me understand that building an electronic project involves more than just connecting components. Mechanical alignment, material selection, soldering, and circuit testing are equally important.
+Supporting the structure: I couldn't find the iron rod, so I used a cycle rim instead.
 
-## Final Result
+Thermocol: It started melting when the soldering iron came too close. Not exactly the best material to work around while soldering!
 
-A fully functioning 3x3x3 cube was created with 27 white LEDs.
+Soldering: Getting all the LED legs connected properly took multiple attempts.
 
-After several attempts and fixes to the soldering and wiring, all 27 LEDs were working and displaying the programmed lighting patterns and animations.
+Alignment: Keeping the LEDs evenly spaced and the three layers properly aligned needed patience.
 
-This helped with my understanding of how to program using Arduino, multiplexing LEDs, soldering, putting circuits together and how to create a 3D electronic object.
-
-I had also got to use my mechanical design skills to create the base supporting model in Autodesk Fusion 360.
-
-Despite a few material swaps and difficulties when building the cube I was able to complete the project successfully.
-
-![Completed 3x3x3 LED Cube]
-![final-cube](https://github.com/user-attachments/assets/61d5dc5f-27a1-43da-9e70-20aadb5786b4)
+I had to fix a few wiring and soldering issues along the way, but eventually all 27 LEDs worked.
 
 
-## Demo Video
+Final Result
 
-Here is a video of how the LED cube works.
+After all the assembly, soldering, and debugging, the cube finally worked as expected. All 27 LEDs were working, and the Arduino was able to display the programmed lighting patterns and animations.
 
-[**Watch the LED Cube Demo on YouTube**](ADDING_VIDEO_LINK_HERE)
+It was a fun project and a good introduction to building something more physical with Arduino. I got to work with LED multiplexing, soldering, circuit connections, and even a little CAD design along the way.
+![final-cube](https://github.com/user-attachments/assets/ec426000-fc9e-4a3c-9d1d-0a5aeab2fd29)
 
-## Reference
-I followed the tutorial below to build and program my LED cube.
 
-[**Original LED Cube Tutorial – YouTube**](ADDING_ORIGINAL_TUTORIAL_LINK_HERE)
+Reference
 
-This github includes details of how I have implemented the LED cube project. Including component replacements, assembly, wiring, CAD and testing.
+I used a YouTube tutorial as the reference for the LED arrangement, circuit connections, and Arduino code.
 
-## Future Improvements
-
-Possible improvements to this project could include:
-
-- Use RGB LEDs to allow more colour variation.
-- Create a smaller and sturdier support structure.
-- Create the base model from Fusion 360.
-- Include more light patterns and effects.
-- Improve the look of the project by having a proper housing/base.
-
----
-
-**Project Status:** Completed
-**Controller:** Arduino Uno
-**LED Configuration:** 3×3×3 (27 LEDs)
-**Programming Environment:** Arduino IDE
-**CAD Software:** Autodesk Fusion 360
+[Original tutorial – YouTube](https://youtu.be/Xd7PekWo_xs?si=PCvpikXvwghyTYnH)
