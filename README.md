@@ -109,7 +109,8 @@ After positioning them, I bent the negative legs of the LEDs and soldered them t
 I repeated the same process to make three individual layers, giving me a total of 27 LEDs.
 
 [led-layers]
-(https://github.com/user-attachments/assets/7c374722-6c82-418e-b120-57b42124d619)
+<img width="553" height="735" alt="Screenshot 2026-11-06 at 11 30 20 PM" src="https://github.com/user-attachments/assets/14f67d25-4fca-481c-9f5e-607e96e362b4" />
+
 
 
 
@@ -140,7 +141,8 @@ I checked the soldering points and connections carefully before powering up the 
 [LED Cube Wiring]
 <img width="1512" height="982" alt="cube-wiring-1" src="https://github.com/user-attachments/assets/bfd71469-0024-4441-84ad-15f73203d69a" />
 [cube-wiring-2]
-(https://github.com/user-attachments/assets/705940d2-93ed-4c44-9abc-9bb21efd188f)
+<img width="553" height="735" alt="Screenshot 2026-11-06 at 11 30 20 PM" src="https://github.com/user-attachments/assets/23f43ce8-79a9-4355-9726-8843681ba212" />
+
 
 
 
