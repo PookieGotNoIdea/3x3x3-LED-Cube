@@ -1,4 +1,4 @@
-3×3×3 LED Cube
+##3×3×3 LED Cube
 
 A small LED cube made using an Arduino Uno and 27 white LEDs. Three layers, nine LEDs in each layer, all connected to create a 3D display that can show different lighting patterns and animations.
 
@@ -6,13 +6,13 @@ I followed a YouTube tutorial for this project, but I had to make a few changes 
 
 
 
-Why I Made This
+##Why I Made This
 
 I wanted to try building something that wasn't just another basic Arduino project. A 3D LED cube looked interesting because it involved electronics, soldering, and a bit of mechanical work all in one project.
 
 The idea was to arrange 27 LEDs into three layers and control them using an Arduino. It looked simple enough when I first saw the tutorial, but getting all the LEDs aligned, soldered, and connected properly turned out to be a different story.
 
-What It Can Do
+##What It Can Do
 
 Display different LED patterns and animations.
 
@@ -146,7 +146,7 @@ I checked the soldering points and connections carefully before powering up the 
 
 
 
-Code
+##Code
 
 I used the code provided in the description of the reference tutorial and uploaded it through the Arduino IDE. I didn't make any changes to the original code.
 
@@ -156,7 +156,7 @@ The main code is available here:
 <img width="1366" height="768" alt="code" src="https://github.com/user-attachments/assets/ce1b92c2-5ba8-4930-98e7-51b6c69d3d46" />
 
 
-CAD Model
+##CAD Model
 
 I also designed a supporting base for the LED cube using Autodesk Fusion 360. The idea was to create a foundation that could support the structure.
 
@@ -222,7 +222,7 @@ Alignment: Keeping the LEDs evenly spaced and the three layers properly aligned 
 I had to fix a few wiring and soldering issues along the way, but eventually all 27 LEDs worked.
 
 
-Final Result
+##Final Result
 
 After all the assembly, soldering, and debugging, the cube finally worked as expected. All 27 LEDs were working, and the Arduino was able to display the programmed lighting patterns and animations.
 
@@ -231,7 +231,7 @@ It was a fun project and a good introduction to building something more physical
 
 
 
-Reference
+##Reference
 
 I used a YouTube tutorial as the reference for the LED arrangement, circuit connections, and Arduino code.
 
