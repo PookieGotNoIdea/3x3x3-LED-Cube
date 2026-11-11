@@ -32,7 +32,7 @@ Components
 
 | Component | Quantity | Purpose |
 |---|---:|---|
-| Arduino Uno | 1 | Controls the LEDs |
+| [Arduino Uno](https://robu.in/product/arduino-uno-r3/) | 1 | Controls the LEDs |
 | White LEDs | 27 | Creates the LED cube |
 | 220 Ω resistors | 3 | Current limiting |
 | Cardboard | 1 piece | LED spacing template |
