@@ -30,16 +30,16 @@ Components
 
 ## BOM – Bill of Materials
 
-| Component | Quantity | Purpose |
+| Component | Quantity |Price | Purpose |
 |---|---:|---|
-| [Arduino Uno](https://robu.in/product/arduino-uno-r3/) | 1 | Controls the LEDs |
-| [White LEDs](https://robu.in/product/5mm-dip-led-white-50-pcs/) | 27 | Creates the LED cube |
-| [220 Ω resistors](https://robu.in/product/3120pcs-14w-5pct-156-kinds-each-value-20pcs-carbonl-film-resistors-kit-plastic-box/) | 3 | Current limiting |
-| [Cardboard](https://amzn.in/d/08aKkzTn) | 1 piece | LED spacing template |
-| [Cycle rim](https://amzn.in/d/00kR5B75) | As requirede | Structural support |
-| [Thermocol](https://amzn.in/d/00T1ffFO) | As required | Used during assembly |
-| [Connecting wires](https://robu.in/product/male-to-male-jumper-wires-40-pin-30cm/) | As required | Circuit connections |
-| [USB cable](https://techtonics.in/product/usb-cable-for-arduino-uno-mega-usb-a-to-b-0-3m/?srsltid=AYCX9vKnf8wcyIWvMwQnSqAf8vsEIjw3q6bd5KLB06eZhoFQ82F0qkRZ) | 1 | Programming and power |
+| [Arduino Uno](https://robu.in/product/arduino-uno-r3/) | 1 | 4.52 USD | Controls the LEDs |
+| [White LEDs](https://robu.in/product/5mm-dip-led-white-50-pcs/) | 27 | 0.01 USD | Creates the LED cube |
+| [220 Ω resistors](https://robu.in/product/3120pcs-14w-5pct-156-kinds-each-value-20pcs-carbonl-film-resistors-kit-plastic-box/) | 3 | 0.01 USD | Current limiting |
+| [Cardboard](https://amzn.in/d/08aKkzTn) | 1 piece | 0.01 USD | LED spacing template |
+| [Cycle rim](https://amzn.in/d/00kR5B75) | As requirede | 0.01 USD | Structural support |
+| [Thermocol](https://amzn.in/d/00T1ffFO) | As required | 0.01 USD | Used during assembly |
+| [Connecting wires](https://robu.in/product/male-to-male-jumper-wires-40-pin-30cm/) | As required | 0.01 USD | Circuit connections |
+| [USB cable](https://techtonics.in/product/usb-cable-for-arduino-uno-mega-usb-a-to-b-0-3m/?srsltid=AYCX9vKnf8wcyIWvMwQnSqAf8vsEIjw3q6bd5KLB06eZhoFQ82F0qkRZ) | 1 | 0.01 USD | Programming and power |
 
 
 I used white LEDs because I couldn't find the RGB LEDs from the tutorial. The cycle rim was another substitution because I couldn't get the iron rod shown in the reference build.
